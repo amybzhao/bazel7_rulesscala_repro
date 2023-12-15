@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.asana.util.compression;
+
+message StringSequenceP {
+    repeated string seq = 1;
+}
+
